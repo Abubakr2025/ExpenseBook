@@ -1,0 +1,10 @@
+{
+  "database_url": "postgresql://postgres:postgres@localhost:5432/postgres",
+  "port": 8080,
+  "host": "localhost",
+  "auth": {
+    "secret_key": "mysecretkey",
+    "algorithm": "HS256",
+    "access_token_expire_minutes": 120
+  }
+}
